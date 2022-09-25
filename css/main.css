@@ -11,9 +11,10 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: white;
     font-size: 1em;
     line-height: 1.4;
+    background-color: black;
 }
 
 /*
@@ -25,12 +26,12 @@ html {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: black;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: black;
     text-shadow: none;
 }
 
@@ -42,7 +43,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
     margin: 1em 0;
     padding: 0;
 }
@@ -97,14 +98,14 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color:black;
   height: 100%;
 }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: 1em;
   height: 100%;
 }
 
@@ -113,21 +114,27 @@ body {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  border-top: white 3px solid;
+  border-bottom: white 3px solid;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1.3em;
   height: 300px;
   width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 }
 
+.div-1, .div-2{
+    border-right:  white 1px solid;
+   
+}
 
 
 
